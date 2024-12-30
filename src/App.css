@@ -1,0 +1,53 @@
+/* 设置背景颜色为基调色，背景铺满 */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #F1A1C1;
+  font-family: Arial, sans-serif;
+}
+
+/* 容器居中 */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  color: #333; /* 字体颜色可适当调整 */
+}
+
+/* 按钮样式 */
+button {
+  background-color: #FFFFFF; /* 按钮背景色为白色 */
+  color: #F1A1C1; /* 按钮文字颜色为基调色 */
+  border: 2px solid #F1A1C1; /* 按钮边框颜色 */
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* 按钮鼠标悬浮样式 */
+button:hover {
+  background-color: #F1A1C1; /* 鼠标悬浮时按钮背景色为基调色 */
+  color: #FFFFFF; /* 鼠标悬浮时按钮文字为白色 */
+}
+
+/* 输入框样式 */
+input {
+  margin: 10px 0;
+  padding: 10px;
+  border: 2px solid #F1A1C1;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 80%;
+  max-width: 300px;
+}
+
+/* 每个区块之间的间距 */
+div {
+  margin-bottom: 20px;
+}
